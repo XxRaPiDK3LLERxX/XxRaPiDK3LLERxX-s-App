@@ -20,4 +20,33 @@
         FlushMemory()
 
     End Sub
+
+    Private Sub Title_Click(sender As Object, e As EventArgs) Handles Title.Click
+
+    End Sub
+    Private Sub GetIPAddress()
+
+        Dim strHostName As String
+
+        Dim strIPAddress As String
+
+
+
+        strHostName = System.Net.Dns.GetHostName()
+
+        strIPAddress = System.Net.Dns.GetHostByName(strHostName).AddressList(0).ToString()
+
+
+        MessageBox.Show("Host Name: " & strHostName & "; IP Address: " & strIPAddress)
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        GetIPAddress()
+
+    End Sub
+
+    Private Sub XxRaPiDKillerxX_Friends_Click(sender As Object, e As EventArgs) Handles XxRaPiDKillerxX_Friends.Click
+
+    End Sub
 End Class
