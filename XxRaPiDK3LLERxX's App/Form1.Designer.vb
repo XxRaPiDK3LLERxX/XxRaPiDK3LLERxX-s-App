@@ -24,6 +24,7 @@ Partial Class Screen_Resolution
     Private Sub InitializeComponent()
         Me.Confirm = New System.Windows.Forms.Button()
         Me.Cancel = New System.Windows.Forms.Button()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Confirm
@@ -44,11 +45,23 @@ Partial Class Screen_Resolution
         Me.Cancel.Text = "Cancel"
         Me.Cancel.UseVisualStyleBackColor = True
         '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(12, 12)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(72, 17)
+        Me.RadioButton1.TabIndex = 2
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "1280x720"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
         'Screen_Resolution
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(652, 388)
+        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.Confirm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -57,9 +70,11 @@ Partial Class Screen_Resolution
         Me.ShowIcon = False
         Me.Text = "Screen Resolution Selector"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Confirm As Button
     Friend WithEvents Cancel As Button
+    Friend WithEvents RadioButton1 As RadioButton
 End Class
