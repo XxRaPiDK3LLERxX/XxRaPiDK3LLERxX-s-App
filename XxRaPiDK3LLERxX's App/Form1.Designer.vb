@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Screen_Resolution
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,29 +22,44 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Confirm = New System.Windows.Forms.Button()
+        Me.Cancel = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'Confirm
         '
-        Me.Button1.Location = New System.Drawing.Point(502, 353)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Confirm.Location = New System.Drawing.Point(495, 353)
+        Me.Confirm.Name = "Confirm"
+        Me.Confirm.Size = New System.Drawing.Size(75, 23)
+        Me.Confirm.TabIndex = 0
+        Me.Confirm.Text = "OK"
+        Me.Confirm.UseVisualStyleBackColor = True
         '
-        'Form1
+        'Cancel
+        '
+        Me.Cancel.Location = New System.Drawing.Point(576, 353)
+        Me.Cancel.Name = "Cancel"
+        Me.Cancel.Size = New System.Drawing.Size(75, 23)
+        Me.Cancel.TabIndex = 1
+        Me.Cancel.Text = "Cancel"
+        Me.Cancel.UseVisualStyleBackColor = True
+        '
+        'Screen_Resolution
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(687, 388)
-        Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(652, 388)
+        Me.Controls.Add(Me.Cancel)
+        Me.Controls.Add(Me.Confirm)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.Name = "Screen_Resolution"
+        Me.ShowIcon = False
+        Me.Text = "Screen Resolution Selector"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Confirm As Button
+    Friend WithEvents Cancel As Button
 End Class
