@@ -47,6 +47,6 @@
     End Sub
 
     Private Sub XxRaPiDKillerxX_Friends_Click(sender As Object, e As EventArgs) Handles XxRaPiDKillerxX_Friends.Click
-
+        MsgBox("This feature isn't ready.")
     End Sub
 End Class
