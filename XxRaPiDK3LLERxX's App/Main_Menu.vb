@@ -49,4 +49,8 @@
     Private Sub XxRaPiDKillerxX_Friends_Click(sender As Object, e As EventArgs) Handles XxRaPiDKillerxX_Friends.Click
         MsgBox("This feature isn't ready.")
     End Sub
+
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+
+    End Sub
 End Class

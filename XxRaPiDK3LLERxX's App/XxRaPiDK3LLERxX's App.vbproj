@@ -64,10 +64,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>3B0BCFFA9B5601FB58C2CD18EB336D9F49B78504</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>5CAB4A1BC7DC1B218D1B0E48673C3268F7B26D25</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>XxRaPiDK3LLERxX%27s App_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>XxRaPiDK3LLERxX%27s App_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -171,6 +171,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="XxRaPiDK3LLERxX%27s App_1_TemporaryKey.pfx" />
     <None Include="XxRaPiDK3LLERxX%27s App_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
